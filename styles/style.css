@@ -227,3 +227,15 @@ header {
 .sponsors_logo {
     margin-top: 4rem;
 }
+
+/* footer */
+
+footer {
+    background: #FFF4E7;
+    padding: 2rem;
+}
+
+footer p {
+    text-align: center;
+    color: #424242;
+}
