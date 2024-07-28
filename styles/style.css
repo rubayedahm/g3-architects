@@ -10,6 +10,10 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 
+section {
+    margin: 5rem 0;
+}
+
 /* shared styles */
 .flex {
     display: flex;
@@ -35,6 +39,7 @@ body {
     text-transform: capitalize;
     font-weight: bold;
     background: #FF900E;
+    cursor: pointer;
 }
 
 /* navbar */
@@ -82,11 +87,48 @@ header {
 }
 
 .banner_img {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 .banner_img img{
     height: 100%;
     width: 100%;
+}
+
+/* teams */
+.teams .flex {
+    gap: 2rem;
+}
+
+.team_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.team_img img {
+    height: 100%;
+    width: 100%;
+}
+
+.features {
+    width: 70%;
+}
+
+.features h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.features h2 span {
+    color: #FF900E;
+    font-weight: bold;
+}
+
+.features p {
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    color: #727272;
 }
