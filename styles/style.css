@@ -177,3 +177,32 @@ header {
     font-size: 1.5rem;
     font-weight: 700;
 }
+
+/* facts */
+.facts_title h3 {
+    font-size: 1.8rem;
+}
+
+.facts_title p {
+    margin: 1rem 0;
+    width: 50%;
+    color: #727272;
+    line-height: 2rem;
+}
+
+.facts_cards{
+    margin-top: 3rem;
+}
+
+.card_item {
+    border: 1px solid #FF900E;
+    padding: 3rem 2rem;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #727272;
+}
+
+.card_item h4 {
+    margin: .5rem 0;
+    font-size: 2rem;
+}
