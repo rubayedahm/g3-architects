@@ -68,6 +68,19 @@ header {
     color: black;
 }
 
+/* Main title */
+.main_title h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.main_title p {
+    /* margin: 1rem auto 1rem auto; */
+    width: 50%;
+    color: #727272;
+    line-height: 2rem;
+}
+
 /* banner */
 .banner_content {
     max-width: 850px;
@@ -179,15 +192,10 @@ header {
 }
 
 /* facts */
-.facts_title h3 {
-    font-size: 1.8rem;
-}
 
-.facts_title p {
-    margin: 1rem 0;
-    width: 50%;
-    color: #727272;
-    line-height: 2rem;
+
+.facts .main_title {
+    margin-left: 0;
 }
 
 .facts_cards{
@@ -205,4 +213,17 @@ header {
 .card_item h4 {
     margin: .5rem 0;
     font-size: 2rem;
+}
+
+/* sponsors */
+.sponsors .main_title  {
+    text-align: center;
+}
+
+.sponsors .main_title p {
+    margin: auto;
+}
+
+.sponsors_logo {
+    margin-top: 4rem;
 }
