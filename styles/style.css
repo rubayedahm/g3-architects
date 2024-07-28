@@ -193,7 +193,6 @@ header {
 
 /* facts */
 
-
 .facts .main_title {
     margin-left: 0;
 }
@@ -207,7 +206,6 @@ header {
     padding: 3rem 2rem;
     border-radius: 4px;
     text-align: center;
-    box-shadow: 5px 5px 5px #727272;
 }
 
 .card_item h4 {
