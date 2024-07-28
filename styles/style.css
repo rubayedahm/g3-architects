@@ -288,6 +288,21 @@ footer p {
     .flex {
         flex-direction: row;
     }
+    header {
+        height: 100vh;
+    }
+
+    .banner_img {
+        display: block;
+    }
+
+    .banner_title {
+        font-size: 4rem;
+    }
+
+    .banner_content p {
+        font-size: 1rem;
+    }
 
     .featured .flex {
         flex-direction: column;
